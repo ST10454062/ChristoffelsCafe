@@ -4,8 +4,8 @@ import { createStackNavigator } from 'react-navigation-stack';
 import * as ScreenOrientation from 'expo-screen-orientation';
 
 
-import ChefMenuScreen from './src/screens/ChefMenuScreen';
-import AddItemScreen from './src/screens/AddItemScreen';
+import ChefMenuScreen from './src/screens/ChefSide/ChefMenuScreen';
+import AddItemScreen from './src/screens/ChefSide/AddItemScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import MenuScreen from './src/screens/MenuScreen';
 import CartScreen from './src/screens/CartScreen';

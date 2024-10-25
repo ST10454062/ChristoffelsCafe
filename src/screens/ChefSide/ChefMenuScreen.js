@@ -129,7 +129,7 @@ const ChefMenuScreen = ({ navigation }) => {
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
           <View style={styles.card}>
-            <Image source={require('../../assets/main.jpeg')}style={{width: 100, height: 100}} />
+            <Image source={require('../../../assets/main.jpeg')}style={{width: 100, height: 100}} />
             <TouchableOpacity>
               <View style={styles.itemTextContainer}>
                 <Text style={styles.itemName}>{item.name}</Text>
@@ -304,18 +304,19 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   footer: {
+    flexDirection: 'row',
     backgroundColor: '#8B4513',
     padding: 5,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     width: '300',
     height: 60,
-    position: 'absolute',
+    position: 'relative',
     bottom: 0,
     left: 0,
     right: 0,
-    borderTopWidth: 1,
     borderTopColor: '#fff',
+    marginTop: 0,
   },
   footerText: {
     color: '#fff',
