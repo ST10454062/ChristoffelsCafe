@@ -183,7 +183,7 @@ const MenuScreen = ({ navigation }) => {
           style={styles.cartButton} 
           onPress={() => navigation.navigate('Cart', { items: cartItems })}
         >
-          <Text style={styles.cartButtonText}>Go to Cart</Text>
+          <Text style={styles.cartButtonText}>Cart</Text>
         </TouchableOpacity>
         <Text style={styles.footerText}>    </Text>
       </View>
